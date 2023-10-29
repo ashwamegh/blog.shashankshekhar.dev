@@ -9,11 +9,11 @@ export const AboutSidebar = () => {
     <aside className="post-sidebar">
       <div className="post-sidebar-card">
         <h2>Me</h2>
-        <img src={me} alt="Tania" />
+        <img src={me} alt="Shashank" />
       </div>
       <div className="post-sidebar-card">
         <h2>Dimo (Kitty)</h2>
-        <img src={dimo} alt="Tania" />
+        <img src={dimo} alt="Shashank" />
       </div>
       <div className="post-sidebar-card">
         <Link to="/josh">Memories of Josh</Link>

@@ -28,8 +28,8 @@ export const Navigation = ({ theme, onUpdateTheme }) => {
       <div className="container">
         <div className="nav-wrapper">
           <Link to="/" className="item brand">
-            <img src={floppyLogo} className="logo" alt="Tania Rascia" />
-            <span>Tania Rascia</span>
+            <img src={floppyLogo} className="logo" alt="Shashank Shekhar" />
+            <span>Shashank Shekhar</span>
           </Link>
           <nav>
             {mainNavItems.map((item) => (

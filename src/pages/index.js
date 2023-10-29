@@ -29,7 +29,7 @@ export default function Index({ data }) {
 
       <div className="container">
         <div className="hero-wrapper">
-          <Hero title="Hey, I'm Tania!" index>
+          <Hero title="Hey, I'm Shashank!" index>
             <p className="hero-description small width">
               Welcome to my digital garden. 🌱
               <br />

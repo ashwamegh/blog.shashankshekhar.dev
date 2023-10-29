@@ -23,11 +23,11 @@ export const PostSidebar = ({
       )}
       <div className="post-sidebar-card">
         <h2>About me</h2>
-        <img src={me} alt="Tania" className="sidebar-avatar" />
+        <img src={me} alt="Shashank" className="sidebar-avatar" />
         <p>
           Hello and thanks for visiting! My name is{' '}
-          <Link to="/me">Tania Rascia</Link>, and this is my website and digital
-          garden. 🌱
+          <Link to="/me">Shashank Shekhar</Link>, and this is my website and
+          digital garden. 🌱
         </p>
         <p>
           I'm a software developer who creates open-source projects and writes

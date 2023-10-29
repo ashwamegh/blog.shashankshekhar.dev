@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Tania Rascia',
+    title: 'Shashank Shekhar',
     author: {
-      name: 'Tania Rascia',
+      name: 'Shashank Shekhar',
     },
     pathPrefix: '/',
     siteUrl: 'https://www.taniarascia.com',
@@ -21,8 +21,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Tania Rascia',
-        short_name: 'Tania Rascia',
+        name: 'Shashank Shekhar',
+        short_name: 'Shashank Shekhar',
         description:
           'Software engineer and open source creator. This is my digital garden.',
         start_url: '/',
@@ -88,7 +88,7 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
-            title: 'Tania Rascia | RSS Feed',
+            title: 'Shashank Shekhar | RSS Feed',
           },
         ],
       },

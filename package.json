@@ -2,8 +2,8 @@
   "name": "taniarascia.com",
   "private": true,
   "version": "6.0.0",
-  "description": "Tania Rascia's personal website.",
-  "author": "Tania Rascia",
+  "description": "Shashank Shekhar's personal blog.",
+  "author": "Shashank Shekhar",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
