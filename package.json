@@ -1,5 +1,5 @@
 {
-  "name": "taniarascia.com",
+  "name": "blog.shashankshekhar.dev",
   "private": true,
   "version": "6.0.0",
   "description": "Shashank Shekhar's personal blog.",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/taniarascia/taniarascia.com"
+    "url": "https://github.com/ashwamegh/blog.shashankshekhar.dev"
   },
   "dependencies": {
     "gatsby": "^5.12.9",
@@ -39,7 +39,7 @@
     "react-use-flexsearch": "^0.1.1"
   },
   "devDependencies": {
-    "@babel/types": "^7.23.0",
+    "@babel/types": "^7.20.0",
     "eslint": "^8.52.0",
     "eslint-config-react-app": "^7.0.1",
     "gatsby-plugin-manifest": "^5.12.3",

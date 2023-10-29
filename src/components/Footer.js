@@ -8,11 +8,11 @@ const links = [
   { url: 'https://taniarascia.substack.com', label: 'Newsletter' },
   { url: 'https://ko-fi.com/taniarascia', label: 'Ko-Fi' },
   { url: 'https://patreon.com/taniarascia', label: 'Patreon' },
-  { url: 'https://www.taniarascia.com/rss.xml', label: 'RSS' },
+  { url: 'https://blog.shashankshekhar.dev/rss.xml', label: 'RSS' },
 ]
 const madeWithLinks = [
   { url: 'https://www.gatsbyjs.org/', label: 'Gatsby', icon: gatsby },
-  { url: 'https://github.com/taniarascia', label: 'GitHub', icon: github },
+  { url: 'https://github.com/ashwamegh', label: 'GitHub', icon: github },
   { url: 'https://www.netlify.com', label: 'Netlify', icon: netlify },
 ]
 

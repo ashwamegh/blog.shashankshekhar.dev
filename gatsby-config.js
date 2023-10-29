@@ -5,11 +5,11 @@ module.exports = {
       name: 'Shashank Shekhar',
     },
     pathPrefix: '/',
-    siteUrl: 'https://www.taniarascia.com',
+    siteUrl: 'https://blog.shashankshekhar.dev',
     description:
       'Software engineer and open-source creator. This is my digital garden.',
-    feedUrl: 'https://www.taniarascia.com/rss.xml',
-    logo: 'https://www.taniarascia.com/logo.png',
+    feedUrl: 'https://blog.shashankshekhar.dev/rss.xml',
+    logo: 'https://blog.shashankshekhar.dev/logo.png',
   },
   plugins: [
     // ===================================================================================
@@ -58,7 +58,7 @@ module.exports = {
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   custom_elements: [
                     { 'content:encoded': edge.node.html },
-                    { author: 'hello@taniarascia.com' },
+                    { author: 'hello@shashankshekhar.dev' },
                   ],
                 })
               })

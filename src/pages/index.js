@@ -91,7 +91,7 @@ export default function Index({ data }) {
                       <time>{project.date}</time>
                       <a
                         className="card-header"
-                        href={`https://github.com/taniarascia/${project.slug}`}
+                        href={`https://github.com/ashwamegh/${project.slug}`}
                         target="_blank"
                         rel="noreferrer"
                       >
