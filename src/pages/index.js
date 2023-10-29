@@ -142,7 +142,7 @@ export const pageQuery = graphql`
   query IndexQuery {
     latest: allMarkdownRemark(
       limit: 6
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
       filter: { frontmatter: { template: { eq: "post" } } }
     ) {
       edges {
@@ -162,7 +162,7 @@ export const pageQuery = graphql`
     }
     highlights: allMarkdownRemark(
       limit: 12
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
       filter: { frontmatter: { categories: { eq: "Highlight" } } }
     ) {
       edges {
