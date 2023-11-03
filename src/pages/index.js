@@ -123,7 +123,7 @@ export default function Index({ data }) {
           </p>
           <p>
             <a
-              href="https://taniarascia.substack.com"
+              href="https://ashwamegh.substack.com"
               target="_blank"
               rel="noopener noreferrer"
               className="button large highlighted"

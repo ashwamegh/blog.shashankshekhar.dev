@@ -46,7 +46,7 @@ export default function PostTemplate({ data }) {
                   when I write something new! No spam ever.
                 </p>
                 <a
-                  href="https://taniarascia.substack.com"
+                  href="https://ashwamegh.substack.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="button highlighted"
