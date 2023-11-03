@@ -1,9 +1,9 @@
 {
-  "name": "taniarascia.com",
+  "name": "blog.shashankshekhar.dev",
   "private": true,
   "version": "6.0.0",
-  "description": "Tania Rascia's personal website.",
-  "author": "Tania Rascia",
+  "description": "Shashank Shekhar's personal blog.",
+  "author": "Shashank Shekhar",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
@@ -14,34 +14,38 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/taniarascia/taniarascia.com"
+    "url": "https://github.com/ashwamegh/blog.shashankshekhar.dev"
   },
   "dependencies": {
-    "gatsby": "^3.12.1",
+    "gatsby": "^5.12.9",
     "gatsby-image": "^3.11.0",
-    "gatsby-plugin-feed": "^3.12.0",
-    "gatsby-plugin-layout": "^2.12.0",
+    "gatsby-plugin-feed": "^5.12.3",
+    "gatsby-plugin-layout": "^4.12.0",
     "gatsby-plugin-local-search": "^2.0.1",
-    "gatsby-plugin-netlify": "^3.12.0",
-    "gatsby-plugin-react-helmet": "^4.12.0",
-    "gatsby-plugin-sharp": "^3.12.0",
-    "gatsby-remark-autolink-headers": "^4.11.0",
-    "gatsby-remark-images": "^5.9.0",
-    "gatsby-remark-prismjs": "^5.9.0",
-    "gatsby-source-filesystem": "^3.12.0",
-    "gatsby-transformer-remark": "^4.9.0",
-    "gatsby-transformer-sharp": "^3.12.0",
-    "prismjs": "^1.24.1",
-    "query-string": "^7.0.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "gatsby-plugin-netlify": "^5.1.1",
+    "gatsby-plugin-react-helmet": "^6.12.0",
+    "gatsby-plugin-sharp": "^5.12.3",
+    "gatsby-remark-autolink-headers": "^6.12.3",
+    "gatsby-remark-images": "^7.12.3",
+    "gatsby-remark-prismjs": "^7.12.0",
+    "gatsby-source-filesystem": "^5.12.1",
+    "gatsby-transformer-remark": "^6.12.3",
+    "gatsby-transformer-sharp": "^5.12.3",
+    "prismjs": "^1.29.0",
+    "query-string": "^8.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "react-use-flexsearch": "^0.1.1"
   },
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-config-react-app": "^6.0.0",
-    "gatsby-plugin-manifest": "^3.12.0",
-    "postcss": "^8.3.6"
+    "@babel/types": "^7.20.0",
+    "eslint": "^8.52.0",
+    "eslint-config-react-app": "^7.0.1",
+    "gatsby-plugin-manifest": "^5.12.3",
+    "postcss": "^8.4.31"
+  },
+  "resolutions": {
+    "babel-plugin-lodash/@babel/types": "~7.20.0"
   }
 }

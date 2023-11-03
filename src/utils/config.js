@@ -1,6 +1,6 @@
 const config = {
-  siteTitle: 'Tania Rascia',
-  siteUrl: 'https://www.taniarascia.com',
+  siteTitle: 'Shashank Shekhar',
+  siteUrl: 'https://blog.shashankshekhar.dev',
   siteLogo: '/logo.png',
   description:
     'Software engineer and open source creator. This is my digital garden.',

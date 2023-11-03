@@ -36,7 +36,7 @@ CategoryTemplate.Layout = Layout
 export const pageQuery = graphql`
   query CategoryPage($category: String) {
     allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: { frontmatter: { date: DESC } }
       filter: { frontmatter: { categories: { in: [$category] } } }
     ) {
       totalCount

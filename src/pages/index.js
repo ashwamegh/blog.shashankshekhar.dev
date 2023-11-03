@@ -29,20 +29,21 @@ export default function Index({ data }) {
 
       <div className="container">
         <div className="hero-wrapper">
-          <Hero title="Hey, I'm Tania!" index>
+          <Hero title="Hey, I'm Shashank!" index>
             <p className="hero-description small width">
-              Welcome to my digital garden. 🌱
+              Navigate the Digital Frontier with me. 💻
               <br />
               <br />
-              I'm a software developer in Chicago. I make{' '}
-              <Link to="/projects">open-source projects</Link> and{' '}
-              <Link to="/blog">write</Link> about code, design, and life. I like
-              accordions, drawing, sci-fi, reading, and gaming.
+              I'm a software developer in India. I develop web & mobile apps and
+              I have created & contributed to
+              <Link to="/projects"> open source projects</Link>. I
+              <Link to="/blog"> write</Link> about code, tech architecture,
+              system design, cloud, and personal experiences with my projects.
             </p>
           </Hero>
           <div className="decoration">
             <img
-              src="/ram.png"
+              src="/cartoon-publish-article.png"
               alt="RAM Ram"
               className="image hero-image"
               title="RAM Ram"
@@ -91,7 +92,7 @@ export default function Index({ data }) {
                       <time>{project.date}</time>
                       <a
                         className="card-header"
-                        href={`https://github.com/taniarascia/${project.slug}`}
+                        href={`https://github.com/ashwamegh/${project.slug}`}
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -122,7 +123,7 @@ export default function Index({ data }) {
           </p>
           <p>
             <a
-              href="https://taniarascia.substack.com"
+              href="https://ashwamegh.substack.com"
               target="_blank"
               rel="noopener noreferrer"
               className="button large highlighted"
@@ -142,7 +143,7 @@ export const pageQuery = graphql`
   query IndexQuery {
     latest: allMarkdownRemark(
       limit: 6
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
       filter: { frontmatter: { template: { eq: "post" } } }
     ) {
       edges {
@@ -162,7 +163,7 @@ export const pageQuery = graphql`
     }
     highlights: allMarkdownRemark(
       limit: 12
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
       filter: { frontmatter: { categories: { eq: "Highlight" } } }
     ) {
       edges {

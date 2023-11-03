@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 import { ExternalLinkIcon } from '../assets/ExternalLinkIcon'
 import blog from '../assets/nav-blog.png'
-import floppyLogo from '../assets/floppylogo.png'
+import laptopLogo from '../assets/laptoplogo.png'
 import floppy from '../assets/nav-floppy.png'
 import github from '../assets/nav-github.png'
 import projects from '../assets/nav-projects.png'
@@ -15,11 +15,10 @@ const mainNavItems = [
   { url: '/me', icon: floppy, label: 'About' },
   { url: '/blog', icon: blog, label: 'Blog' },
   { url: '/projects', icon: projects, label: 'Projects' },
-  { url: '/illustration', icon: projects, label: 'Illustration' },
 ]
 
 const socialNavItems = [
-  { url: 'https://github.com/taniarascia', icon: github, label: 'GitHub' },
+  { url: 'https://github.com/ashwamegh', icon: github, label: 'GitHub' },
 ]
 
 export const Navigation = ({ theme, onUpdateTheme }) => {
@@ -28,8 +27,8 @@ export const Navigation = ({ theme, onUpdateTheme }) => {
       <div className="container">
         <div className="nav-wrapper">
           <Link to="/" className="item brand">
-            <img src={floppyLogo} className="logo" alt="Tania Rascia" />
-            <span>Tania Rascia</span>
+            <img src={laptopLogo} className="logo" alt="Shashank Shekhar" />
+            <span>Shashank Shekhar</span>
           </Link>
           <nav>
             {mainNavItems.map((item) => (
