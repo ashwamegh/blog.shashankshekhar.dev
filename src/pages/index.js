@@ -31,18 +31,19 @@ export default function Index({ data }) {
         <div className="hero-wrapper">
           <Hero title="Hey, I'm Shashank!" index>
             <p className="hero-description small width">
-              Welcome to my digital garden. 🌱
+              Navigate the Digital Frontier with me. 💻
               <br />
               <br />
-              I'm a software developer in Chicago. I make{' '}
-              <Link to="/projects">open-source projects</Link> and{' '}
-              <Link to="/blog">write</Link> about code, design, and life. I like
-              accordions, drawing, sci-fi, reading, and gaming.
+              I'm a software developer in India. I develop web & mobile apps and
+              I have created & contributed to
+              <Link to="/projects"> open source projects</Link>. I
+              <Link to="/blog"> write</Link> about code, tech architecture,
+              system design, cloud, and personal experiences with my projects.
             </p>
           </Hero>
           <div className="decoration">
             <img
-              src="/ram.png"
+              src="/cartoon-publish-article.png"
               alt="RAM Ram"
               className="image hero-image"
               title="RAM Ram"
