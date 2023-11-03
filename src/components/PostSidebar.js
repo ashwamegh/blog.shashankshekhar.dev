@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 
 import { getFormattedDate, slugify } from '../utils/helpers'
-import me from '../../content/images/tania2020small.jpg'
+import me from '../../content/images/avatar.png'
 
 export const PostSidebar = ({
   tags = [],
@@ -25,14 +25,16 @@ export const PostSidebar = ({
         <h2>About me</h2>
         <img src={me} alt="Shashank" className="sidebar-avatar" />
         <p>
-          Hello and thanks for visiting! My name is{' '}
-          <Link to="/me">Shashank Shekhar</Link>, and this is my website and
-          digital garden. 🌱
+          Hello, and thanks for visiting! My name is{' '}
+          <Link to="/me">Shashank Shekhar</Link>, and this is my personal blog
+          where I share my personal learnings & experiences in the digital
+          frontier.
         </p>
         <p>
-          I'm a software developer who creates open-source projects and writes
-          about code, design, and life. This site is and has always been free of
-          ads, trackers, social media, affiliates, and sponsored posts.
+          I'm a software developer who loves to create & contribute to
+          open-source projects and writes about code, tech architecture, system
+          design, and cloud. This site is and has always been free of ads,
+          trackers, social media, affiliates, and sponsored posts.
         </p>
       </div>
 
@@ -77,7 +79,7 @@ export const PostSidebar = ({
         </p>
         <p>
           <a
-            href="https://taniarascia.substack.com"
+            href="https://ashwamegh.substack.com"
             target="_blank"
             rel="noopener noreferrer"
             className="button highlighted"
