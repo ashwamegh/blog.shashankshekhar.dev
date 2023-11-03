@@ -15,7 +15,6 @@ const mainNavItems = [
   { url: '/me', icon: floppy, label: 'About' },
   { url: '/blog', icon: blog, label: 'Blog' },
   { url: '/projects', icon: projects, label: 'Projects' },
-  { url: '/illustration', icon: projects, label: 'Illustration' },
 ]
 
 const socialNavItems = [
