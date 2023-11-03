@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 import { ExternalLinkIcon } from '../assets/ExternalLinkIcon'
 import blog from '../assets/nav-blog.png'
-import floppyLogo from '../assets/floppylogo.png'
+import laptopLogo from '../assets/laptoplogo.png'
 import floppy from '../assets/nav-floppy.png'
 import github from '../assets/nav-github.png'
 import projects from '../assets/nav-projects.png'
@@ -28,7 +28,7 @@ export const Navigation = ({ theme, onUpdateTheme }) => {
       <div className="container">
         <div className="nav-wrapper">
           <Link to="/" className="item brand">
-            <img src={floppyLogo} className="logo" alt="Shashank Shekhar" />
+            <img src={laptopLogo} className="logo" alt="Shashank Shekhar" />
             <span>Shashank Shekhar</span>
           </Link>
           <nav>
