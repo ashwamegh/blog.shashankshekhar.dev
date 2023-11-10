@@ -190,6 +190,7 @@ li {
 
 li code {
   white-space: break-spaces !important;
+  word-wrap: break-word !important;
 }
 
 li::marker {
@@ -387,6 +388,13 @@ h2.home-heading .title {
   h2.home-heading .title {
     font-size: 2rem;
   }
+}
+
+/* Paragraphs */
+
+p code {
+  white-space: break-spaces !important;
+  word-wrap: break-word !important;
 }
 
 /* Table */
