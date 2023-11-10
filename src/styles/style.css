@@ -188,6 +188,10 @@ li {
   padding-left: 0.25rem;
 }
 
+li code {
+  white-space: break-spaces !important;
+}
+
 li::marker {
   font-size: 1.1rem;
   line-height: 1;
@@ -214,6 +218,11 @@ blockquote p {
   font-size: 1rem;
   line-height: 1.6;
   font-weight: 400;
+}
+
+blockquote code {
+  word-wrap: break-word !important;
+  white-space: break-spaces !important;
 }
 
 blockquote *:last-child {
@@ -444,6 +453,7 @@ u {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 .segment {
