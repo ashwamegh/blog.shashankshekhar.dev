@@ -47,5 +47,9 @@
   },
   "resolutions": {
     "babel-plugin-lodash/@babel/types": "~7.20.0"
+  },
+  "engines": {
+    "node": "18.20.8",
+    "yarn": ">=1.22.0"
   }
 }
